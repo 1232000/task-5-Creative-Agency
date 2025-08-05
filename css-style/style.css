@@ -1,0 +1,15 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0; 
+    font-family : "Segoe UI" , sans-serif;
+    color: white;
+}
+img{
+    display: block;
+    width: 100%;
+}
+ section{
+    height: 90vh ;
+ }
