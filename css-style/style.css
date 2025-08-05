@@ -10,6 +10,29 @@ img{
     display: block;
     width: 100%;
 }
- section{
+
+section{
     height: 90vh ;
  }
+/* ------------------------------------------------------------------------------- */
+:root{
+    --nav-clr: #061532 ;
+}
+/* ------------------------------------------------------------------------------- */
+nav , footer{
+    background-color: var(--nav-clr);
+}
+#logo{
+    letter-spacing: 1px;
+}
+#home{
+    background-image: linear-gradient(rgba(0,0,0,0.6)) ,url("../image/home-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#home h1{
+    font-size: 56px;
+}
+/* #home p{
+    font-size: 56px;
+} */
