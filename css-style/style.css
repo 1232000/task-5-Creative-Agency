@@ -1,3 +1,4 @@
+/* GENERAL------------------------------------------------------------------------------- */
 *, *::after, *::before{
     box-sizing: border-box;
 }
@@ -10,21 +11,33 @@ img{
     display: block;
     width: 100%;
 }
-
 section{
     height: 90vh ;
  }
-/* ------------------------------------------------------------------------------- */
+/* COLORS------------------------------------------------------------------------------- */
 :root{
-    --nav-clr: #061532 ;
+    --dark-clr: #061532 ;
 }
-/* ------------------------------------------------------------------------------- */
+.dark-clr{
+    background-color: var(--dark-clr);
+}
+/* NAVBAR & FOOTER------------------------------------------------------------------------------- */
 nav , footer{
-    background-color: var(--nav-clr);
+    background-color: var(--dark-clr);
 }
-#logo{
+.letter-space-1{
     letter-spacing: 1px;
 }
+.nav-link{
+    color: rgba(255, 255, 255, 0.55);
+}
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.75);
+}
+.navbar-nav .nav-link.active{
+    color: rgba(255, 255, 255, 1);
+}
+/* HOME------------------------------------------------------------------------------- */
 #home{
     background-image: linear-gradient(rgba(0,0,0,0.6)) ,url("../image/home-bg.jpg");
     background-position: center;
@@ -33,6 +46,22 @@ nav , footer{
 #home h1{
     font-size: 56px;
 }
-/* #home p{
-    font-size: 56px;
-} */
+/* SERVICES------------------------------------------------------------------------------- */
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.6)) ,url("../image/service-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#services h1{
+    font-size: 48px;
+}
+#services p.wh-p{
+    font-size: 19px;
+    color: rgb(224, 224, 224);
+}
+#services .serv-card{
+    transition: all 0.3s;
+}
+#services .serv-card:hover{
+    transform: translateY(-6px);
+}
