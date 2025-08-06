@@ -1,11 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <section>portfolio</section>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="../image/home-bg.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css-style/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css-style/all.min.css" />
+    <link rel="stylesheet" href="../css-style/style.css" />
+  </head>
+  <!------------------------------------------------------------------------------------------------->
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a
+          class="navbar-brand text-white letter-space-1 fw-bold fs-4 text-white"
+          href="#"
+          >CreativeAgency</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!------------------------------------------------------------------------------------------------->
+    <section
+      id="portfolio"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="mb-5">
+        <div>
+          <h2 class="fw-bold text-center pt-sm-5 pt-md-0">Our Latest Work</h2>
+        </div>
+        <div class="container text-start">
+          <div class="row">
+
+            <div class="card-parent col-md-4 col-12 pb-sm-4 pb-md-0">
+              <div class="card h-100 dark-clr">
+                <img
+                  src="../image/business.jpg"
+                  class="card-img-top"
+                  alt="everest waiting"
+                />
+                <div class="card-body text-white">
+                  <h5 class="card-title">Business Landing Page</h5>
+                  <p class="card-text">
+                    Responsive and modern landing page for a finance startup.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-parent col-md-4 col-12 pb-sm-4 pb-md-0">
+              <div class="card h-100 dark-clr">
+                <img
+                  src="../image/e-commerce.jpg"
+                  class="card-img-top"
+                  alt="explore"
+                />
+                <div class="card-body text-white">
+                  <h5 class="card-title">E-Commerce UI</h5>
+                  <p class="card-text">
+                    Clean and fast online shop design using Bootstrap and Grid.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-parent col-md-4 col-12">
+              <div class="card h-100 dark-clr">
+                <img
+                  src="../image/portfolio.jpg"
+                  class="card-img-top"
+                  alt="less is more"
+                />
+                <div class="card-body text-white">
+                  <h5 class="card-title">Portfolio Website</h5>
+                  <p class="card-text">
+                    Personal portfolio with creative animations and layout.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------------------------------------------------------------------->
+
+    <footer class="text-center">
+      <div class="py-4">© 2025 Creative Agency. All rights reserved.</div>
+    </footer>
+    <!------------------------------------------------------------------------------------------------->
+
+    <script src="../bootstrap-5.3.5-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

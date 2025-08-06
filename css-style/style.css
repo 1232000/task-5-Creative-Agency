@@ -12,7 +12,7 @@ img{
     width: 100%;
 }
 section{
-    height: 90vh ;
+    min-height: 90vh ;
  }
 /* COLORS------------------------------------------------------------------------------- */
 :root{
@@ -77,4 +77,33 @@ nav , footer{
 }
 .blur-10{
     backdrop-filter: blur(5px);
+}
+/* PORTFOLIO------------------------------------------------------------------------------- */
+#portfolio{
+    background-image: linear-gradient(rgba(0,0,0,0.6)) ,url("../image/portfolio-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    color: rgb(224, 224, 224);
+}
+.card img{
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s;
+}
+.card {
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.card:hover img{
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s;
+}
+.card:hover{
+    transform: translateY(-7px);
+    img{
+        transform: scale(1.1);
+    }
 }
