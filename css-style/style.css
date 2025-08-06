@@ -46,6 +46,15 @@ nav , footer{
 #home h1{
     font-size: 56px;
 }
+@media (max-width:768px) {
+    #home h1{
+        font-size: 32px;    }
+}
+@media (max-width:992px) {
+    #home h1{
+        font-size: 46px;
+    }
+}
 /* SERVICES------------------------------------------------------------------------------- */
 #services{
     background-image: linear-gradient(rgba(0,0,0,0.6)) ,url("../image/service-bg.jpg");
